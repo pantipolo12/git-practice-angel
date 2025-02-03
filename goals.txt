@@ -1,0 +1,9 @@
+Three short-term learning goals.
+1.Learn how to use Git commands
+2.Improve my problem-solving skills in any Language
+3.Create an open source contribution
+
+Three long-term career or academic goals.
+1. To master all of the programming Languages.
+2. Become a software engineer/developer or an AI engineer.
+3. Complete Bachelor's degree in Computer Science.
