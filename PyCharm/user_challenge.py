@@ -1,47 +1,51 @@
-def p(b):
-    for r in b:
-        print(" | ".join(r))
+def print_board(board):
+    for row in board:
+        print(" | ".join(row))
         print("-" * 5)
 
 
-def c_w(b, p):
-    for i in range(3):
-        if all(b[i][j] == p for j in range(3)) or all(b[j][i] == p for j in range(3)):
+def check_winner(board, player):
+    for row_index in range(3):
+        if (all(board[row_index][col_index] == player for col_index in range(3)) or
+            all(board[col_index][row_index] == player for col_index in range(3))):
             return True
-    if all(b[i][i] == p for i in range(3)) or all(b[i][2 - i] == p for i in range(3)):
+    if (all(board[diagonal_index][diagonal_index] == player for diagonal_index in range(3)) or
+        all(board[diagonal_index][2 - diagonal_index] == player for diagonal_index in range(3))):
         return True
     return False
 
 
-def f(b):
-    return all(c != " " for r in b for c in r)
+def is_board_full(board):
+    return all(cell != " " for row in board for cell in row)
 
 
-def t():
-    b = [[" " for _ in range(3)] for _ in range(3)]
-    p = ["X", "O"]
+def start_game():
+    board = [[" " for _ in range(3)] for _ in range(3)]
+    player = ["X", "O"]
     print("Tic-Tac-Toe Game")
-    p(b)
-    for t in range(9):
-        pl = p[t % 2]
+    player(board)
+
+    for turn_number in range(9):
+        current_player = player[turn_number % 2]
         while 1:
             try:
-                r, c = map(int, input(f"P {pl}, row col (0-2): ").split())
-                if b[r][c] == " ":
-                    b[r][c] = pl
+                row, col = map(int, input(f"P {current_player}, row col (0-2): ").split())
+                if board[row][col] == " ":
+                    board[row][col] = current_player
                     break
                 else:
-                    print("Nope. Again.")
-            except:
-                print("Wrong. 0-2 pls.")
-        p(b)
-        if c_w(b, pl):
-            print(f"P {pl} wins!")
+                    print("spot already taken, try again.")
+            except ValueError:
+                print("Invalid input. Please enter two integers seperated by a space.")
+
+        player(board)
+        if check_winner(board, current_player):
+            print(f"P {current_player} wins!")
             return
-        if f(b):
+        if is_board_full(board):
             print("Draw!")
             return
     print("Draw!")
 
 
-t()
+start_game()
