@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Purpose of the Script
 
 This script generates an interactive rotating globe, allowing users to explore country geometries 
@@ -57,3 +58,6 @@ plotly==6.0.0
 - During the installation of dependencies, I encountered an issue where some dependencies had conflicting versions. This was resolved by ensuring that all packages were compatible with each other using `pipdeptree`.
 - The interactive globe works as expected and it runs very smooth.
 - Using `pipreqs` was useful in reducing unnecessary packages in the `requirements.txt` file.
+=======
+
+>>>>>>> 33519fb8ce0f71584968c4753598e61dce0e3997
