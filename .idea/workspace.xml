@@ -8,7 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a987bf14-7909-4cf6-ac18-fc8185f325b1" name="Changes" comment="added documentation for PIP PIP Hooray assignment.">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pip-hooray" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pip-hooray" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -24,12 +26,12 @@
     &quot;assignee&quot;: &quot;pantipolo12&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pantipolo12/git-practice-angel",
-    "accountId": "d01a310d-5740-4982-8a13-50f450d42e63"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pantipolo12/git-practice-angel&quot;,
+    &quot;accountId&quot;: &quot;d01a310d-5740-4982-8a13-50f450d42e63&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -43,24 +45,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.globe.executor": "Run",
     "Python.user_challenge.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/panti/PycharmProjects/git-practice-angel/Pokemon-storage",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/panti/git-practice-angel",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\panti\PycharmProjects\git-practice-angel\Pokemon-storage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\panti\git-practice-angel\pip-hooray" />
     </key>
   </component>
   <component name="RunManager">
@@ -99,7 +105,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f623e53f-9e38-45cd-8e6d-3c2f42481d08" name="Changes" comment="" />
+      <changelist id="a987bf14-7909-4cf6-ac18-fc8185f325b1" name="Changes" comment="added documentation for PIP PIP Hooray assignment." />
       <created>1739133686004</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -108,6 +114,12 @@
       <workItem from="1740004595356" duration="693000" />
       <workItem from="1740005302542" duration="2192000" />
       <workItem from="1740008087077" duration="2842000" />
+      <workItem from="1740343189097" duration="49000" />
+      <workItem from="1740344024926" duration="8000" />
+      <workItem from="1740346913503" duration="2063000" />
+      <workItem from="1740878136847" duration="27000" />
+      <workItem from="1743988704248" duration="460000" />
+      <workItem from="1743989793373" duration="701000" />
     </task>
     <task id="LOCAL-00001" summary="updated README.md (pokemon card documentation)">
       <option name="closed" value="true" />
@@ -173,7 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740340511080</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added documentation for PIP PIP Hooray assignment.">
+      <option name="closed" value="true" />
+      <created>1740342209697</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740342209697</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added documentation for PIP PIP Hooray assignment.">
+      <option name="closed" value="true" />
+      <created>1740342350448</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740342350448</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,5 +230,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/git_practice_angel$user_challenge.coverage" NAME="user_challenge Coverage Results" MODIFIED="1740010781822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyCharm" />
+    <SUITE FILE_PATH="coverage/git_practice_angel$globe.coverage" NAME="globe Coverage Results" MODIFIED="1740348345848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pip-pip-hooray" />
   </component>
 </project>
